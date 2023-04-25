@@ -1,0 +1,159 @@
+.header{
+    background-color: #1E346C;
+    height:80px;
+    width:100%;
+    display:flex;
+    justify-content:center;
+}
+h1{
+    font-family:algerian;
+    font-size:45px;
+    color:white;
+}
+h2{
+    font-family:algerian;
+    font-size:30px;
+    color:black;
+}
+.logo{
+    width:8vw;
+    height:80px;
+    position:absolute;
+}
+.navbar{
+    display:flex;
+    background-color: #1E346C;
+    justify-content:center;
+    width:100%;
+    height:fit-content;
+}
+ul{
+    width:40vw;
+    display:flex;
+    justify-content:space-between;
+}
+#dglogo{
+    left:92vw;
+}
+#welllogo{
+    left:0vw;
+}
+.nav-item{
+    background-color: #9DDFEE;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width:10vw;
+    border:2px black solid;
+    border-radius:5px;
+    font-size:2vw;
+    text-align:center;
+    display:inline-block;
+    padding:5px;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    text-decoration:underline;
+    color:white;
+}
+.content{
+    width:100%;
+    display:grid;
+    grid-template-rows: fit-content;
+    grid-template-columns: 20% 60% 20%;
+}
+.sidebar{
+    width:100%;
+    background-color:#9DDFEE;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    padding:1vw;
+}
+#sb1{
+    grid-row:1/2;
+    grid-column:1/2;
+}
+#middle{
+    grid-row:1/2;
+    grid-column:2/3;
+    background-color:white;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    padding:2vw;
+}
+#sb2{
+    grid-row: 1/2;
+    grid-column: 3/4;
+}
+h3{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:25px;
+    text-align:center;
+}
+h4{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:20px;
+    text-align:center;
+}
+p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:17px;
+}
+.sidebar p{
+    width:100%;
+    text-align:center;
+}
+.imgborder{
+    background-color: #7997E5;
+    height:20vw;
+    width:75%;
+    margin:auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius: 2vw;
+}
+#teamphoto{
+    width:90%;
+    height:90%;
+}
+.footer{
+    height:80px;
+    display:flex;
+    align-items: center;
+    justify-content:left;
+    background-color:#1E346C;
+    padding:2vw;
+}
+#sociallinks{
+    display:flex;
+    height:80px;
+    width:20vw;
+    left:80vw;
+    position:absolute;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.sociallogo{
+    height:2.5vw;
+    width:2.5vw;
+}
+.primarybutton{
+    background-color: #7997E5;
+    color:white;
+    border-radius:1vw;
+    font-size:1.25vw;
+    width:fit-content;
+    padding:0.5vw;
+    border: 0px black solid;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.primarybutton:hover{
+    border: 4px black solid;
+    text-decoration:underline;
+}
